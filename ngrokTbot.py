@@ -7,7 +7,7 @@ from telepot.loop import MessageLoop
 
 def getConnectionDetails():
     connection_list = []
-    output = "_____ PC ______\n"
+    output = "_____ NGROK STATUS ______\n"
     
     #offline test data
     #with open('example.json') as f:
