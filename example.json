@@ -1,0 +1,137 @@
+{
+  "tunnels": [
+    {
+      "name": "pi-server (http)",
+      "uri": "/api/tunnels/pi-server%20%28http%29",
+      "public_url": "http://9f1aa76e.ap.ngrok.io",
+      "proto": "http",
+      "config": {
+        "addr": "http://localhost:80",
+        "inspect": true
+      },
+      "metrics": {
+        "conns": {
+          "count": 0,
+          "gauge": 0,
+          "rate1": 0,
+          "rate5": 0,
+          "rate15": 0,
+          "p50": 0,
+          "p90": 0,
+          "p95": 0,
+          "p99": 0
+        },
+        "http": {
+          "count": 0,
+          "rate1": 0,
+          "rate5": 0,
+          "rate15": 0,
+          "p50": 0,
+          "p90": 0,
+          "p95": 0,
+          "p99": 0
+        }
+      }
+    },
+    {
+      "name": "aria",
+      "uri": "/api/tunnels/aria",
+      "public_url": "tcp://0.tcp.ap.ngrok.io:12624",
+      "proto": "tcp",
+      "config": {
+        "addr": "localhost:6800",
+        "inspect": false
+      },
+      "metrics": {
+        "conns": {
+          "count": 0,
+          "gauge": 0,
+          "rate1": 0,
+          "rate5": 0,
+          "rate15": 0,
+          "p50": 0,
+          "p90": 0,
+          "p95": 0,
+          "p99": 0
+        },
+        "http": {
+          "count": 0,
+          "rate1": 0,
+          "rate5": 0,
+          "rate15": 0,
+          "p50": 0,
+          "p90": 0,
+          "p95": 0,
+          "p99": 0
+        }
+      }
+    },
+    {
+      "name": "pi-server",
+      "uri": "/api/tunnels/pi-server",
+      "public_url": "https://9f1aa76e.ap.ngrok.io",
+      "proto": "https",
+      "config": {
+        "addr": "http://localhost:80",
+        "inspect": true
+      },
+      "metrics": {
+        "conns": {
+          "count": 0,
+          "gauge": 0,
+          "rate1": 0,
+          "rate5": 0,
+          "rate15": 0,
+          "p50": 0,
+          "p90": 0,
+          "p95": 0,
+          "p99": 0
+        },
+        "http": {
+          "count": 0,
+          "rate1": 0,
+          "rate5": 0,
+          "rate15": 0,
+          "p50": 0,
+          "p90": 0,
+          "p95": 0,
+          "p99": 0
+        }
+      }
+    },
+    {
+      "name": "ssh",
+      "uri": "/api/tunnels/ssh",
+      "public_url": "tcp://0.tcp.ap.ngrok.io:11850",
+      "proto": "tcp",
+      "config": {
+        "addr": "localhost:22",
+        "inspect": false
+      },
+      "metrics": {
+        "conns": {
+          "count": 0,
+          "gauge": 0,
+          "rate1": 0,
+          "rate5": 0,
+          "rate15": 0,
+          "p50": 0,
+          "p90": 0,
+          "p95": 0,
+          "p99": 0
+        },
+        "http": {
+          "count": 0,
+          "rate1": 0,
+          "rate5": 0,
+          "rate15": 0,
+          "p50": 0,
+          "p90": 0,
+          "p95": 0,
+          "p99": 0
+        }
+      }
+    }
+  ],
+  "uri": "/api/tunnels"
+}
