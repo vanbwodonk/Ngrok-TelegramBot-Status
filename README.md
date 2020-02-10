@@ -6,5 +6,5 @@ Ngrok free account always change public url connection every new connection. So 
 - Running Ngrok services.
 - Telepot. https://telepot.readthedocs.io/en/latest/
 
-## Requirements
+## Usage
 Open telegram bot, then send `/status` command.
