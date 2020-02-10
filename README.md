@@ -10,3 +10,13 @@ Ngrok free account always change public url connection every new connection. So 
 - Change `('===YOUR BOT TOKEN===')` this script with your bot token. Please create one from botFather(https://telegram.me/BotFather) if you don't have it. 
 - Run script `python3 ngrokTbot.py`. 
 - Open telegram bot from your Telegram APP(Android/IOS/Desktop/Web whatever), then send `/status` command.
+
+## Output Example
+This output example on Telegram App.
+```
+_____ NGROK STATUS ______
+ssh: tcp://0.tcp.ap.ngrok.io:13224
+aria: tcp://0.tcp.ap.ngrok.io:17547
+pi-server (http): http://49a2d9ab.ap.ngrok.io
+pi-server: https://49a2d9ab.ap.ngrok.io
+```
