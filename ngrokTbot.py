@@ -17,6 +17,7 @@ def getConnectionDetails():
     data = json.loads(response.text)
 
     data = data['tunnels']
+    data = sorted(data, key = lambda i: i['name'])
     for item in data:
         connection_details = {"name":None, "public_url":None}
         connection_details['name'] = item['name']
