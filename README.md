@@ -15,8 +15,8 @@ Ngrok free account always change public url connection every new connection. So 
 This output example on Telegram App.
 ```
 _____ NGROK STATUS ______
-ssh: tcp://0.tcp.ap.ngrok.io:13224
 aria: tcp://0.tcp.ap.ngrok.io:17547
-pi-server (http): http://49a2d9ab.ap.ngrok.io
-pi-server: https://49a2d9ab.ap.ngrok.io
+ssh: tcp://0.tcp.ap.ngrok.io:13224
+webserver: https://49a2d9ab.ap.ngrok.io
+webserver (http): http://49a2d9ab.ap.ngrok.io
 ```
